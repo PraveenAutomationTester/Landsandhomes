@@ -1,4 +1,4 @@
-package com.LandsandHomes.GenericUtility;
+ package com.LandsandHomes.GenericUtility;
 
 public class JavaUtility {
 

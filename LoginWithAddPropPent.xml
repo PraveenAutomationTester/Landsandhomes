@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EndtoEnd">
+  <test thread-count="5" name="LoginTestAndAddPropPent">
+	  <parameter name="browsername" value="chrome"></parameter>
+	  <parameter name="url" value="http://13.127.176.226/"></parameter>
+	  <parameter name="username" value="6363967468"></parameter>
+	  <parameter name="password" value="123456789"></parameter>
+	  <parameter name="PropertyTitle" value="Pentesh mahal"></parameter>
+	  <parameter name="Locality" value="hubli"></parameter>
+	  <parameter name="List" value="hubli Karnataka"></parameter>
+	  <parameter name="ApartName" value="Lotus Apartments"></parameter>
+	  <parameter name="BuildUp" value="300"></parameter>
+	  <parameter name="Carpet" value="400"></parameter>
+	  <parameter name="Units" value="1"></parameter>
+	  <parameter name="Expprice" value="600000"></parameter>
+	  <parameter name="curten" value="3"></parameter>
+	  <parameter name="bedroom" value="2"></parameter>
+	  <parameter name="tower" value="T"></parameter>
+	  <parameter name="floor" value="9"></parameter>
+	  <parameter name="Discrp" value="very Beautifull property it is all shoulkd buy"></parameter>
+	  <classes>
+		  <class name="testNGLaHAddProp.Add_Prop_Res_Sell_pentHouse"/>
+		  
+	  </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- EndtoEnd -->

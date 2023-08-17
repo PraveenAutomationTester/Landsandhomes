@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EndtoEnd">
+  <test thread-count="5" name="LoginTestAndAddProp">
+	  <parameter name="browsername" value="chrome"></parameter>
+	  <parameter name="url" value="http://13.127.176.226/"></parameter>
+	  <parameter name="username" value="6363967468"></parameter>
+	  <parameter name="password" value="123456789"></parameter>
+	  <parameter name="PropertyTitle" value="VinayMahal"></parameter>
+	  <parameter name="Locality" value="mangalore"></parameter>
+	  <parameter name="List" value="Mangalore Karnataka"></parameter>
+	  <parameter name="ApartName" value="Veeru Apartments"></parameter>
+	  <parameter name="BuildUp" value="200"></parameter>
+	  <parameter name="Carpet" value="150"></parameter>
+	  <parameter name="Units" value="3"></parameter>
+	  <parameter name="Expprice" value="500000"></parameter>
+	  <parameter name="curten" value="5"></parameter>
+	  <parameter name="bedroom" value="3"></parameter>
+	  <parameter name="tower" value="H"></parameter>
+	  <parameter name="floor" value="5"></parameter>
+	  <parameter name="Discrp" value="very property it is all shoulkd buy"></parameter>
+	  <classes>
+		  <class name="testNGLaHAddProp.Add_Prop_Res_Sell_Flat"/>
+		  
+	  </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- EndtoEnd -->

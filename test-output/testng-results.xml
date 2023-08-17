@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-17T10:22:28 IST" name="EndtoEnd" finished-at="2023-08-17T10:24:18 IST" duration-ms="109897">
+    <groups>
+    </groups>
+    <test started-at="2023-08-17T10:22:28 IST" name="LoginTestAndAddProp" finished-at="2023-08-17T10:24:18 IST" duration-ms="109897">
+      <class name="testNGLaHAddProp.Add_Prop_Res_Sell_Flat">
+        <test-method is-config="true" signature="Login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGLaHAddProp.Add_Prop_Res_Sell_Flat@6c1a5b54]" started-at="2023-08-17T10:22:28 IST" name="Login" finished-at="2023-08-17T10:22:50 IST" duration-ms="21544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://13.127.176.226/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6363967468]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Add_Prop(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGLaHAddProp.Add_Prop_Res_Sell_Flat@6c1a5b54]" started-at="2023-08-17T10:22:50 IST" name="Add_Prop" finished-at="2023-08-17T10:24:13 IST" duration-ms="83013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VinayMahal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mangalore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mangalore Karnataka]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Veeru Apartments]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[150]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[H]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[very property it is all shoulkd buy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Prop -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:testNGLaHAddProp.Add_Prop_Res_Sell_Flat@6c1a5b54]" started-at="2023-08-17T10:24:13 IST" name="Logout" finished-at="2023-08-17T10:24:18 IST" duration-ms="5276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- testNGLaHAddProp.Add_Prop_Res_Sell_Flat -->
+    </test> <!-- LoginTestAndAddProp -->
+  </suite> <!-- EndtoEnd -->
+</testng-results>

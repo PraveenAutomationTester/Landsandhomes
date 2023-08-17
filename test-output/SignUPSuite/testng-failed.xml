@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SignUPSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignUpTest(failed)">
+    <parameter name="ConfPassword" value="123456789"/>
+    <parameter name="password" value="6363467555"/>
+    <parameter name="mobileNumber" value="123456789"/>
+    <parameter name="fullname" value="Nicola Tesla"/>
+    <parameter name="url" value="https://landsandhomes.com/login#register"/>
+    <parameter name="email" value="rameshpraveen679+29@gmail.com"/>
+    <classes>
+      <class name="testNGLaHAddProp.SignUP">
+        <methods>
+          <include name="BeforeConf"/>
+          <include name="SignUP" invocation-numbers="0"/>
+          <include name="AfterConf"/>
+        </methods>
+      </class> <!-- testNGLaHAddProp.SignUP -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+</suite> <!-- Failed suite [SignUPSuite] -->
