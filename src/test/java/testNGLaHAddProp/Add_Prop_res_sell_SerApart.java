@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Add_Prop_Res_Sell_pentHouse
+public class Add_Prop_res_sell_SerApart 
 {
 	WebDriver driver;
 	String CurrentURL1;
@@ -33,16 +33,25 @@ public void Login(String browsername ,String url,String username, String passwor
 		driver=new EdgeDriver();
 	}
 	driver.manage().window().maximize();
-
+	
+//home page LOGIN-----------------
+	
 	driver.get(url);
 	Thread.sleep(10000);
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
+	// In home Page Click On AddProp Button
 	driver.findElement(By.xpath("//a[contains(text(),\"Add\")]//i")).click();
 	driver.findElement(By.xpath("//form[@method='POST']//input[@name='email_login']")).sendKeys(username);
 	driver.findElement(By.xpath("//input[@id='login_password']")).sendKeys(password);
 	driver.findElement(By.xpath("//button[@id='submit_button_id']")).click();
+	
+	// After login click on Post property button
+	
 	driver.findElement(By.xpath("//span[text()='Post Property']")).click();
 }
+	
+	
+	
 	@Test
 	@Parameters({"PropertyTitle","Locality","List","ApartName","BuildUp","Carpet","Units","Expprice","curten","bedroom","tower","floor","Discrp"})
 	public void Add_Prop(String PropertyTitle,String Locality,String List,String ApartName,String BuildUp,String Carpet,String Units,String Expprice,String curten,String bedroom,String tower,String floor,String Discrp) throws InterruptedException 
@@ -53,8 +62,11 @@ public void Login(String browsername ,String url,String username, String passwor
 		jse.executeScript("scrollBy(0,400);");
 		Thread.sleep(3000);
 		CurrentURL1=driver.getCurrentUrl();
-		driver.findElement(By.xpath("//div[@id='property_type_details']//label[normalize-space()='Pent House']")).click();
+		// select flat/Apartment
+		driver.findElement(By.xpath("//div[@id='property_type_details']//label[normalize-space()='Serviced Apartment']")).click();
+		//Enter the prop title
 		driver.findElement(By.cssSelector("input[placeholder='Enter the Property Title']")).sendKeys(PropertyTitle);
+		//Enter Locality 
 		driver.findElement(By.id("locality")).sendKeys(Locality);
 		List<WebElement> SearchList=driver.findElements(By.xpath("//div[@class='pac-item']"));
 		jse.executeScript("scrollBy(0,400);");
@@ -67,20 +79,30 @@ public void Login(String browsername ,String url,String username, String passwor
 				SearchList.get(i).click();
 			}
 		}
-		
-		driver.findElement(By.xpath("//input[@name='city']")).sendKeys("Locality");
+		// enter city name
+		driver.findElement(By.xpath("//input[@name='city']")).sendKeys(Locality);
 		Thread.sleep(3000);
+		//Enter Apartment name
 		driver.findElement(By.cssSelector("input[placeholder='Enter Apartment Name']")).sendKeys(ApartName);
 		Thread.sleep(3000);
+		//click on Next button
 		driver.findElement(By.xpath("//button[@class='next action-button mt-3']")).click();
 		Thread.sleep(3000);
 		
+		// select Area drop down
 		WebElement AreaDropdown=driver.findElement(By.xpath("//select[@id='inputGroupSelect03']"));
 		Select AreaDetails=new Select(AreaDropdown);
 		AreaDetails.selectByVisibleText("Sq. feet");
+		//Enter Built UP area
 		driver.findElement(By.cssSelector("input[name='built_up']")).sendKeys(BuildUp);
+		
+		//Enter Carpet Area
 		driver.findElement(By.cssSelector("input[name='carpet']")).sendKeys(Carpet);
+		
+		// Enter Unit
 		driver.findElement(By.cssSelector("input[name='no_of_unit']")).sendKeys(Units);
+		
+		//Enter Expect Price
 		driver.findElement(By.cssSelector("input[placeholder='Expected price']")).sendKeys(Expprice);
 		jse.executeScript("scrollBy(0,800);");
 		Thread.sleep(3000);
@@ -173,7 +195,7 @@ public void Login(String browsername ,String url,String username, String passwor
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//label[text()='Well ventilated']")).click();
 		Thread.sleep(2000);
-		jse.executeScript("scrollBy(0,500);");
+		jse.executeScript("scrollBy(0,300);");
 		//Thread.sleep(2000);
 		driver.findElement(By.xpath("//label[text()='Fully Renovated']")).click();
 		//Thread.sleep(2000);
@@ -212,7 +234,7 @@ public void Login(String browsername ,String url,String username, String passwor
 		driver.findElement(By.xpath("//input[@id='video_file']")).sendKeys("C:\\Users\\TECQNIO\\Downloads\\stock-footage-home-interior-walk-through-from-living-room-into-kitchen-warehouse-conversion-empty-space-modern.webm");
 		jse.executeScript("scrollBy(0,400);");
 		Thread.sleep(4000);
-		String PropTit=driver.findElement(By.xpath("//section[@class='pt-4']//h5[contains(@class,'pt-3 pb-1 ')]")).getText();
+		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
 		Thread.sleep(6000);
 		CurrentURL2=driver.getCurrentUrl();
 	
@@ -250,7 +272,4 @@ public void Login(String browsername ,String url,String username, String passwor
 		driver.quit();
 		
 	}
-	
 }
-
-

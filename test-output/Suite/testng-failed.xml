@@ -22,7 +22,7 @@
     <classes>
       <class name="testNGLaHAddProp.Add_Prop_Res_Sell_Flat">
         <methods>
-          <include name="Add_Prop"/>
+          <include name="Add_Prop" invocation-numbers="0"/>
           <include name="Logout"/>
           <include name="Login"/>
         </methods>
@@ -79,7 +79,7 @@
       <class name="testNGLaHAddProp.Add_Prop_Res_Sell_BuilderFloorProp">
         <methods>
           <include name="Login"/>
-          <include name="Add_Prop"/>
+          <include name="Add_Prop" invocation-numbers="0"/>
           <include name="Logout"/>
         </methods>
       </class> <!-- testNGLaHAddProp.Add_Prop_Res_Sell_BuilderFloorProp -->

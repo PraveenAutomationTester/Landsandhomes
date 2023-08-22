@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SignUPSuite">
   <test thread-count="5" name="SignUpTest">
-	  <parameter name="url" value="http://13.127.176.226/"></parameter>
+	  <parameter name="url" value="http://13.127.176.226/login#register"></parameter>
 	  <parameter name="fullname" value="Nicola Tesla"></parameter>
-	  <parameter name="email" value="rameshpraveen679+81@gmail.com"></parameter>
-	  <parameter name="password" value="63634689867"></parameter>
+	  <parameter name="email" value="rameshpraveen679+93@gmail.com"></parameter>
+	  <parameter name="password" value="63634689811"></parameter>
 	  <parameter name="ConfPassword" value="123456789"></parameter>
 	  <parameter name="mobileNumber" value="123456789"></parameter>
 		  

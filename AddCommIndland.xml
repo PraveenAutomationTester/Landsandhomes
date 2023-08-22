@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EndtoEnd">
+  <test thread-count="5" name="LoginTestAndAddPropPent">
+	  <parameter name="browsername" value="chrome"></parameter>
+	  <parameter name="url" value="http://13.127.176.226/"></parameter>
+	  <parameter name="username" value="6363967468"></parameter>
+	  <parameter name="password" value="123456789"></parameter>
+	  <parameter name="PlotNO" value="56/7"></parameter>
+	  <parameter name="Pincode" value="566890"></parameter>
+	  <parameter name="PropertyTitle" value="Sitara Apartment For Sale"></parameter>
+	  <parameter name="Locality" value="kadur"></parameter>
+	  <parameter name="List" value="kadur Karnataka"></parameter>
+	  <parameter name="length" value="100"></parameter>
+	  <parameter name="breadth" value="200"></parameter>
+	   <parameter name="BuildUp" value="19000"></parameter>
+	   <parameter name="PlotArea" value="20000"></parameter>
+	     <parameter name="Expprice" value="500000"></parameter>
+	  <classes>
+		  <class name="testNGLaHAddProp.Add_Prop_com_sell_induLand"/>
+		  
+	  </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- EndtoEnd -->

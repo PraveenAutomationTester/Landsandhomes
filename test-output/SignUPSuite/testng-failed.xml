@@ -3,11 +3,11 @@
 <suite name="Failed suite [SignUPSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="SignUpTest(failed)">
     <parameter name="ConfPassword" value="123456789"/>
-    <parameter name="password" value="6363467555"/>
+    <parameter name="password" value="63634689811"/>
     <parameter name="mobileNumber" value="123456789"/>
     <parameter name="fullname" value="Nicola Tesla"/>
-    <parameter name="url" value="https://landsandhomes.com/login#register"/>
-    <parameter name="email" value="rameshpraveen679+29@gmail.com"/>
+    <parameter name="url" value="http://13.127.176.226/login#register"/>
+    <parameter name="email" value="rameshpraveen679+93@gmail.com"/>
     <classes>
       <class name="testNGLaHAddProp.SignUP">
         <methods>

@@ -4,7 +4,7 @@
   <test thread-count="5" name="LoginTestAndAddPropPent">
 	  <parameter name="browsername" value="chrome"></parameter>
 	  <parameter name="url" value="http://13.127.176.226/"></parameter>
-	  <parameter name="username" value="6363967468"></parameter>
+	  <parameter name="username" value="rameshpraveen679+90@gmail.com"></parameter>
 	  <parameter name="password" value="123456789"></parameter>
 	  <parameter name="PropertyTitle" value="Pentesh mahal"></parameter>
 	  <parameter name="Locality" value="hubli"></parameter>

@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Add_Prop_Res_Sell_pentHouse
+public class Add_Prop_res_Sell_1Rk 
 {
 	WebDriver driver;
 	String CurrentURL1;
@@ -53,7 +53,7 @@ public void Login(String browsername ,String url,String username, String passwor
 		jse.executeScript("scrollBy(0,400);");
 		Thread.sleep(3000);
 		CurrentURL1=driver.getCurrentUrl();
-		driver.findElement(By.xpath("//div[@id='property_type_details']//label[normalize-space()='Pent House']")).click();
+		driver.findElement(By.xpath("//div[@id='property_type_details']//label[normalize-space()='1RK/Studio Apartment']")).click();
 		driver.findElement(By.cssSelector("input[placeholder='Enter the Property Title']")).sendKeys(PropertyTitle);
 		driver.findElement(By.id("locality")).sendKeys(Locality);
 		List<WebElement> SearchList=driver.findElements(By.xpath("//div[@class='pac-item']"));
@@ -173,7 +173,7 @@ public void Login(String browsername ,String url,String username, String passwor
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//label[text()='Well ventilated']")).click();
 		Thread.sleep(2000);
-		jse.executeScript("scrollBy(0,500);");
+		jse.executeScript("scrollBy(0,300);");
 		//Thread.sleep(2000);
 		driver.findElement(By.xpath("//label[text()='Fully Renovated']")).click();
 		//Thread.sleep(2000);
@@ -212,7 +212,7 @@ public void Login(String browsername ,String url,String username, String passwor
 		driver.findElement(By.xpath("//input[@id='video_file']")).sendKeys("C:\\Users\\TECQNIO\\Downloads\\stock-footage-home-interior-walk-through-from-living-room-into-kitchen-warehouse-conversion-empty-space-modern.webm");
 		jse.executeScript("scrollBy(0,400);");
 		Thread.sleep(4000);
-		String PropTit=driver.findElement(By.xpath("//section[@class='pt-4']//h5[contains(@class,'pt-3 pb-1 ')]")).getText();
+		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
 		Thread.sleep(6000);
 		CurrentURL2=driver.getCurrentUrl();
 	
@@ -252,5 +252,8 @@ public void Login(String browsername ,String url,String username, String passwor
 	}
 	
 }
+	
+	
+
 
 

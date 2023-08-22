@@ -15,6 +15,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import dev.failsafe.internal.util.Assert;
+
 public class Add_Prop_Res_Sell_BuilderFloorProp 
 {
 	WebDriver driver;
@@ -215,6 +217,15 @@ public void Login(String browsername ,String url,String username, String passwor
 		driver.findElement(By.xpath("//button[contains(text(),'Submit')]")).click();
 		Thread.sleep(6000);
 		CurrentURL2=driver.getCurrentUrl();
+		driver.findElement(By.xpath("//tr[@class='odd'][1]//a[contains(text(),'LAH')]")).click();
+		Thread.sleep(6000);
+		String PropTit=driver.findElement(By.xpath("//section[@class='pt-4']//h5[contains(@class,'pt-3 pb-1 ')]")).getText();
+		if(PropTit.equals(PropertyTitle))
+		{
+			System.out.println("Property Title test Pass");
+		}
+		
+		
 	
 		
 		

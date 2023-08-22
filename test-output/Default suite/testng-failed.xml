@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGLaHAddProp.SignUP">
+      <class name="testNGLaHAddProp.Add_Prop_com_sell_induLand">
         <methods>
-          <include name="SignUP"/>
+          <include name="Add_Prop"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- testNGLaHAddProp.SignUP -->
+      </class> <!-- testNGLaHAddProp.Add_Prop_com_sell_induLand -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="EndtoEnd">
-  <test thread-count="5" name="LoginTestAndAddProp">
+  <test thread-count="5" name="LoginTestAndAddPropServApart">
 	  <parameter name="browsername" value="chrome"></parameter>
 	  <parameter name="url" value="http://13.127.176.226/"></parameter>
 	  <parameter name="username" value="6363967468"></parameter>
 	  <parameter name="password" value="123456789"></parameter>
-	  <parameter name="PropertyTitle" value="Sitara Apartment For Sale"></parameter>
+	  <parameter name="PropertyTitle" value="VinayMahal"></parameter>
 	  <parameter name="Locality" value="mangalore"></parameter>
 	  <parameter name="List" value="Mangalore Karnataka"></parameter>
 	  <parameter name="ApartName" value="Veeru Apartments"></parameter>
@@ -18,7 +18,6 @@
 	  <parameter name="bedroom" value="3"></parameter>
 	  <parameter name="tower" value="H"></parameter>
 	  <parameter name="floor" value="5"></parameter>
-	  <parameter name="PlotArea" value=""></parameter>
 	  <parameter name="Discrp" value="very property it is all shoulkd buy"></parameter>
 	  <classes>
 		  <class name="testNGLaHAddProp.Add_Prop_Res_Sell_Flat"/>
@@ -26,3 +25,4 @@
 	  </classes>
   </test> <!-- LoginTest -->
 </suite> <!-- EndtoEnd -->
+
