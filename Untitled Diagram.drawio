@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T05:12:58.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7N1oK0PBMOGZ3IkioXDZ" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T05:19:17.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="U-iT6RQxGTAXMURBXEqy" version="22.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2788" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3639" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Super Admin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Super Admin" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PIT35P4ncly065lTr-8g-21" value="" style="endArrow=none;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
@@ -13,16 +13,16 @@
             <mxPoint x="680" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-30" value="Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-30" value="Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-170" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-32" value="Reports" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-32" value="Reports" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="560" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PIT35P4ncly065lTr-8g-42" value="Manage Users" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="90" y="1220" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-38" value="Internal Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-38" value="Internal Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PIT35P4ncly065lTr-8g-41" value="Management Team" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -52,7 +52,7 @@
             <mxPoint x="70" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-96" value="External Users" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-96" value="External Users" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-20" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PIT35P4ncly065lTr-8g-97" value="Sales Team" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -64,22 +64,22 @@
         <mxCell id="PIT35P4ncly065lTr-8g-99" value="Finance Team" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-340" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-102" value="Agents" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-102" value="Agents" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="780" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-103" value="Builder" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-103" value="Builder" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="870" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-106" value="Agent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-106" value="Agent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-107" value="Builder" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-107" value="Builder" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="610" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-108" value="Owner" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-108" value="Owner" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="780" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PIT35P4ncly065lTr-8g-109" value="End User" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="PIT35P4ncly065lTr-8g-109" value="End User" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="950" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PIT35P4ncly065lTr-8g-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PIT35P4ncly065lTr-8g-32" target="PIT35P4ncly065lTr-8g-106" edge="1">
@@ -283,7 +283,7 @@
         <mxCell id="nNYuNas8sAvrbR3IsNDS-3" value="City&lt;br&gt;No. of Properties&lt;br&gt;No. of Agents&lt;br&gt;No. of Builders&lt;br&gt;No. of End Users&lt;br&gt;Leads" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1176" y="780" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="nNYuNas8sAvrbR3IsNDS-4" value="Demographic" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-4" value="Demographic" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1100" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nNYuNas8sAvrbR3IsNDS-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.129;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="nNYuNas8sAvrbR3IsNDS-4">
@@ -378,6 +378,24 @@
         </mxCell>
         <mxCell id="nNYuNas8sAvrbR3IsNDS-23" value="Super Admin Can Create" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-120" y="490" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-24" value="Super Admin &lt;br&gt;can view" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="510" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-25" value="Super Admin can &lt;br&gt;create Team" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-320" y="910" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-26" value="Super Admin can &lt;br&gt;Add team head" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-510" y="900" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-27" value="Team head can &lt;br&gt;Add team membrs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-665" y="900" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-28" value="Super Admin Can Create" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="750" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nNYuNas8sAvrbR3IsNDS-29" value="click" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="475" y="740" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
